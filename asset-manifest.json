@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/halo-techinical-task/static/css/main.5f62ae21.css",
+    "main.js": "/halo-techinical-task/static/js/main.a5243796.js",
+    "static/media/slide-4_bg.png": "/halo-techinical-task/static/media/slide-4_bg.195d00223dc88ca5f687.png",
+    "static/media/slide-2_bg.png": "/halo-techinical-task/static/media/slide-2_bg.37a2de1fec908da959b4.png",
+    "static/media/team_3.png": "/halo-techinical-task/static/media/team_3.1a40c4bd938b9053f066.png",
+    "static/media/slide-1_bg.png": "/halo-techinical-task/static/media/slide-1_bg.57b3444f3f73516c37e9.png",
+    "static/media/slide-5_bg.png": "/halo-techinical-task/static/media/slide-5_bg.b9e12652efb44a9cf06c.png",
+    "static/media/Parrot.png": "/halo-techinical-task/static/media/Parrot.35049cb0b3cf21846d5a.png",
+    "static/media/team_1.png": "/halo-techinical-task/static/media/team_1.2959c7c4830669cbf2d9.png",
+    "static/media/team_2.png": "/halo-techinical-task/static/media/team_2.97d2c3f823f714276aeb.png",
+    "static/media/slide-3_dop-icon.png": "/halo-techinical-task/static/media/slide-3_dop-icon.e6e0cfeb10dde35def55.png",
+    "static/media/Headline.png": "/halo-techinical-task/static/media/Headline.e2e5832546f2e3e80052.png",
+    "static/media/slick.svg": "/halo-techinical-task/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/halo-techinical-task/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/halo-techinical-task/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/halo-techinical-task/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/halo-techinical-task/index.html",
+    "main.5f62ae21.css.map": "/halo-techinical-task/static/css/main.5f62ae21.css.map",
+    "main.a5243796.js.map": "/halo-techinical-task/static/js/main.a5243796.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f62ae21.css",
+    "static/js/main.a5243796.js"
+  ]
+}
