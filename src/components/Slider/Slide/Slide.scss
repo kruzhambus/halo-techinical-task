@@ -1,0 +1,38 @@
+//@import "src/index";
+
+.slide {
+  position: relative;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  padding: 0 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+  &__title {
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  &__description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    margin-bottom: -60px;
+    max-width: 300px;
+  }
+
+  &__dop-icon {
+    position: absolute;
+    top: 0;
+    left: calc(50% - (300px / 2));
+  }
+}

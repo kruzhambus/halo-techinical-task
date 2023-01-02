@@ -1,0 +1,184 @@
+@import "src/index";
+
+.home {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 450px;
+
+  &__search {
+    position: relative;
+    width: 100%;
+    margin-top: 72px;
+    &-img {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+
+    &-description {
+      font-size: 15px;
+      line-height: 32px;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__form {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 8px 25px;
+    background: #FFFFFF;
+    box-shadow: 0 20px 20px rgba(240, 101, 126, 0.05);
+    border-radius: 40px;
+
+    &-label {
+      position: relative;
+      z-index: 50;
+      flex: 1;
+      margin: 0 20px;
+      height: 24px;
+    }
+
+    &-input {
+      border: 0;
+      outline: none;
+      width: 100%;
+      height: 100%;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #807C7C;
+    }
+
+    &-btn {
+      position: relative;
+      z-index: 50;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #F2726C;
+      padding: 16px 15px;
+      border: 0;
+      outline: none;
+      border-radius: 30px;
+
+      & span {
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 140%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__members {
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+
+    &-img {
+      position: absolute;
+      left: 96px;
+      top: -200px;
+      z-index: 1;
+    }
+
+    &-card {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      width: 240px;
+      height: 285px;
+      padding: 30px 25px;
+
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      &-text {
+        width: 100%;
+        color: #FFFFFF;
+
+        & h6 {
+          font-weight: 700;
+          font-size: 15px;
+          line-height: 21px;
+        }
+
+        & span {
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $desktop_width){
+  .home {
+    justify-content: space-between;
+    padding: 80px 0;
+
+    &__search {
+      width: 45%;
+      &-description {
+        font-size: 16px;
+      }
+    }
+
+    &__members {
+      width: 45%;
+      position: relative;
+      bottom: unset;
+      left: unset;
+
+      display: flex;
+      align-items: end;
+
+      &-img {
+        top: unset;
+        bottom: 100px;
+        left: 110px;
+      }
+
+      &-card {
+        width: 304px;
+        height: 360px;
+
+        &-icon {
+          width: 48px;
+          height: 56px;
+        }
+
+        &-text {
+          & h6 {
+            font-size: 20px;
+          }
+
+          & span {
+            font-size: 56px;
+            line-height: 80px;
+          }
+        }
+      }
+    }
+
+    &__form {
+      margin-bottom: 40px;
+      &-btn {
+        font-size: 13px;
+        line-height: 18px;
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+@import "src/index";
+
+.footer {
+  padding: 100px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: start;
+
+  &__intro {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+
+  &__title {
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333333;
+    opacity: .75;
+  }
+
+  &__info {
+    &-title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 32px;
+      color: #333333;
+    }
+
+    &-address, &-phone {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      color: #333333;
+      mix-blend-mode: normal;
+    }
+  }
+
+  &__social-media {
+    &-title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 32px;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+
+    &-icons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-icon {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop_width){
+  .footer {
+    flex-wrap: nowrap;
+    //justify-content: space-between;
+    &__intro {
+      width: 33%;
+    }
+
+    &__title {
+      font-size: 34px;
+      line-height: 48px;
+      margin-bottom: 32px;
+    }
+
+    &__description {
+      font-size: 13px;
+      line-height: 24px;
+    }
+
+    &__info {
+      width: 33%;
+
+      &-title {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 37px;
+      }
+
+      &-address, &-phone {
+        font-size: 13px;
+        line-height: 24px;
+      }
+    }
+
+    %__social-media {
+      width: 33%;
+
+      &-title {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 37px;
+      }
+    }
+  }
+}

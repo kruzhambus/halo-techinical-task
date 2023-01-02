@@ -1,0 +1,74 @@
+@import "src/index";
+
+.faq {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 20px;
+    color: #222433;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #1E1A20;
+    padding-bottom: 32px;
+  }
+
+  &__contact-us-btn {
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    width: 166px;
+    height: 48px;
+    background: #F2726C;
+    border-radius: 30px;
+    margin-bottom: 60px;
+
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $desktop_width){
+  .faq {
+    display: flex;
+    justify-content: space-between;
+    padding: 192px 0;
+
+    &__text {
+      width: 45%;
+    }
+
+    &__title {
+      font-size: 40px;
+      line-height: 56px;
+      margin-bottom: 40px;
+    }
+
+    &__description {
+      font-size: 18px;
+      line-height: 32px;
+      margin-bottom: 56px;
+    }
+
+    &__contact-us-btn {
+      font-size: 13px;
+      line-height: 140%;
+      padding: 15px 36px;
+    }
+
+    &__questions {
+      width: 45%;
+    }
+  }
+}

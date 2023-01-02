@@ -1,0 +1,151 @@
+@import "src/index";
+
+.registration {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 42px 5%;
+  border-radius: 20px;
+  background-color: #FFBD9E;
+
+  &__text {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 55px;
+    padding: 0 26px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #222433;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #1E1A20;
+  }
+
+  &__log-in {
+    position: relative;
+    padding: 40px 18px;
+    background: #F7F3F4;
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    &-title {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #222433;
+      margin-bottom: 24px;
+    }
+
+    &-label {
+      width: 100%;
+      height: 48px;
+      border-radius: 40px;
+      background-color: #FFFFFF;
+      margin-bottom: 16px;
+    }
+
+    &-input {
+      height: 100%;
+      width: 100%;
+      border: 0;
+      outline: none;
+      border-radius: 40px;
+      padding: 12px 24px;
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #807C7C;
+    }
+
+    &-btn {
+      cursor: pointer;
+      border: 0;
+      outline: none;
+      width: 100%;
+      height: 48px;
+      background: #F2726C;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 16px;
+
+      & span {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        color: #FFFFFF;
+      }
+    }
+
+    &-vector {
+      position: absolute;
+
+      &_first {
+        right: -21px;
+        top: -19px;
+      }
+
+      &_second {
+        right: -10px;
+        top: 32px;
+      }
+    }
+  }
+
+}
+
+@media screen and (min-width: $desktop_width){
+  .registration {
+    padding: 104px 104px 104px 80px;
+    justify-content: space-between;
+
+    &__text {
+      width: 45%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-content: center;
+      flex-wrap: wrap;
+      justify-content: left;
+    }
+
+    &__title {
+      width: 100%;
+      font-size: 40px;
+      line-height: 56px;
+    }
+
+    &__description {
+      font-size: 18px;
+      line-height: 32px;
+    }
+
+
+    &__log-in {
+      width: 45%;
+      padding: 55px 40px;
+
+      &-title {
+        font-size: 32px;
+        line-height: 56px;
+      }
+
+
+    }
+  }
+}

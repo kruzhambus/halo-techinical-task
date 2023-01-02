@@ -1,0 +1,26 @@
+$desktop_width: '1224px';
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #F7F3F4;
+  position: relative;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  &_desktop {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

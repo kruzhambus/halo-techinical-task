@@ -1,0 +1,44 @@
+.slider {
+  position: relative;
+  background-color: #FFBD9E;
+  padding: 72px 0;
+  width: 100%;
+  overflow-x: hidden;
+
+  &__wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    transition: all .5s ease-in-out;
+  }
+
+  &__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    &-arrow {
+      cursor: pointer;
+      padding: 10px;
+    }
+
+    &-counter {
+      margin: 0 40px;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 32px;
+
+      & span {
+        opacity: .2;
+      }
+    }
+  }
+
+  & .slick-track {
+    display: flex;
+    align-items: center;
+  }
+}
